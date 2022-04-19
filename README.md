@@ -1,0 +1,3 @@
+Esse repositório se utiliza dos cursos iniciais da Alura de HTML5 e CSS3. Esse curso é introdutório e ensina o básico sobre as duas ferramentas propostas. Com os conhecimentos transmitidos, somos incitados a criar uma simples landing page da marca fictícia proposta. 
+
+Inseri diversos comentários ao longo dos códigos para facilitar a compreensão das ferramentas utilizadas, já que utilizarei esse projeto como base de estudos para criar outras LPs. 

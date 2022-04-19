@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- define a linguagem que será inputada -->
+<html lang="pt-br">
+<!-- head é onde ficam os cabeçalhos de informações da página -->
+	<head>
+		<!-- define o tipo de caracteres que será usado, UTF-8 é o padrão da maioria dos sites nacionais -->
+		<meta charset="UTF-8">
+		<!-- define o título da página no navegador-->
+		<title>Barbearia Alura</title>
+		<!-- reset é um css pre-made que já vem com o site, ele reseta o css padrão do site -->
+		<link rel="stylesheet" href="reset.css">
+		<!-- define o caminho do arquivo CSS que será usado -->
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+	<!-- body é onde ficam os conteúdos da página -->
+	<body>
+		<!-- header é onde ficam os conteúdos do cabeçalho da página -->
+		<header>
+			<!-- div é uma divisão que pode ser usada para criar uma área de conteúdo -->
+			<!-- class é utilizada para se criar um identificador entre os elementos da página, podendo mudar em conjunto no css -->
+			<div class="caixa">
+				<!-- h1 é um título que pode ser usado para criar um título -->
+				<h1><img src="imgs/logo.png"></h1>
+				<!-- nav é um menu que pode ser usado para criar um menu de navegação -->
+				<nav>
+					<!-- ul é uma lista não odernada -->
+					<ul>
+						<!-- li é um item que pode ser usado para criar um item de lista -->
+						<!-- <a> é usado para determinar um link, o href é usado para determinar o link -->
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<img class="banner" src="imgs/banner.jpg">
+		<!-- main é onde ficam os conteúdos principais da página, podendo usar o body como alt-->
+		<main>
+			<!-- section é uma divisão para criar um bloco de conteúdo único -->
+			<section class="principal">
+				<h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+
+				<img class="utensilios" src="imgs/utensilios.jpg" alt="Utensilios de um barbeiro.">
+		 
+				<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+
+				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+
+				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+			</section>
+
+			<section class="mapa">
+				<h3 class="titulo-principal">Nosso estabelecimento</h3>
+				<p>Nosso estabelecimento está localizado no coração da cidade.</p>
+
+				<div class="mapa-conteudo">
+					<!-- iframe é utilizado para inserir campos com links, vídeos e afins. -->
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4483278365396!2d-46.63466568562861!3d-23.588249068469487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum!5e0!3m2!1spt-BR!2sbr!4v1568814489656!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</div>
+			</section>
+
+			<section class="beneficios">
+				<h3 class="titulo-principal">Benefícios</h3>
+
+				<div class="conteudo-beneficios">
+					<ul class="lista-beneficios">
+						<li class="itens">Atendimento aos Clientes</li>
+						<li class="itens">Espaço diferenciado</li>
+						<li class="itens">Localização</li>
+						<li class="itens">Profissionais Qualificados</li>
+						<li class="itens">Pontualidade</li>
+						<li class="itens">Limpeza</li>
+					</ul><img src="imgs/beneficios.jpg" class="imagem-beneficios">
+				</div>
+
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</section>
+		</main>
+		<!-- footer é o rodapé da página -->
+		<footer>
+			<img src="imgs/logo-branco.png">
+			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+		</footer>
+	</body>
+</html>
